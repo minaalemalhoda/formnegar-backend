@@ -4,7 +4,7 @@
   "description": "run npm install package.json to get able for running the project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node /presentation/form.js"
+    "start": "node form.js"
   },
   "author": "mina.alam@gmail.com!!!",
   "license": "ISC",
