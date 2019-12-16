@@ -7,8 +7,7 @@ app.use(bodyParser.json());
 
 const formHandler = require('../application/form');
 
-
-
+const PORT = process.env.PORT || 5000;
 
 app.get('/', (req, res) => {
   res.send('Welcome to FormNegar app');
@@ -58,6 +57,6 @@ app.post('/api/forms/:id', (req, res) => {
 });
 
 
-app.listen(3000, () =>
+app.listen(PORT, () =>
   console.log('FormNegar app listening on port 3000!'),
 );
